@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 ### Java template
+=======
+>>>>>>> 6370fce63a4d1e991f84372d6ba0c6b110f37664
 # Compiled class file
 *.class
 
@@ -22,4 +25,7 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6370fce63a4d1e991f84372d6ba0c6b110f37664
