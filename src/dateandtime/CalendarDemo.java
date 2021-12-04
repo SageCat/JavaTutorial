@@ -26,6 +26,7 @@ public class CalendarDemo
         System.out.println(instance.get(Calendar.YEAR));
         // 获取月份
         System.out.println(instance.get(Calendar.MONTH)+1);
+
         // 获取当月的第几天
         System.out.println(instance.get(Calendar.DAY_OF_MONTH));
         // 获取24小时制 的几点
