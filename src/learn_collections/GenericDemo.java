@@ -1,4 +1,4 @@
-package collections;
+package learn_collections;
 
 public class GenericDemo<E>
 {

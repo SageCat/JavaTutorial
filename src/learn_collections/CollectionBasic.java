@@ -1,4 +1,4 @@
-package collections;
+package learn_collections;
 
 import java.util.ArrayList;
 import java.util.HashSet;

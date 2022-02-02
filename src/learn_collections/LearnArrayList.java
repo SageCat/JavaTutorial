@@ -1,6 +1,5 @@
-package collections;
+package learn_collections;
 
-import javax.swing.*;
 import java.util.ArrayList;
 
 public class LearnArrayList

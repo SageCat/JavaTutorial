@@ -1,4 +1,4 @@
-package object;
+package learn_object;
 
 public class Person /*extends Object*/
 {
