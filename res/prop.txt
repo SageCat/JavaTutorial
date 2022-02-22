@@ -1,5 +1,0 @@
-#hahah
-#Wed Feb 02 16:32:05 GST 2022
-Sage2=30
-Sage1=2
-Sage=27
