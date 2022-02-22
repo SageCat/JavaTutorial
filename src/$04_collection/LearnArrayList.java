@@ -46,8 +46,6 @@ public class LearnArrayList
         System.out.println(arrayList);
 
 
-        new ArrayList<Integer>()
-
         /*
         long start = System.currentTimeMillis();
         ArrayList<Integer> integers = new ArrayList<>();
