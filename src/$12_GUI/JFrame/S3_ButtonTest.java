@@ -14,7 +14,7 @@ public class S3_ButtonTest
 {
     public static void main(String[] args)
     {
-        MyButtonFrame buttonFrame = new MyButtonFrame();
+        new MyButtonFrame();
     }
 }
 
@@ -22,7 +22,7 @@ public class S3_ButtonTest
 class MyButtonFrame implements ActionListener
 {
     JButton button;
-    S0_MyFrame myFrame;
+    S0_MyCenterFrame myFrame;
 
     public MyButtonFrame()
     {
@@ -38,7 +38,7 @@ class MyButtonFrame implements ActionListener
         // 为按钮添加事件监听器
         button.addActionListener(this);
 
-        myFrame = new S0_MyFrame();
+        myFrame = new S0_MyCenterFrame(1000, 800);
         myFrame.setTitle("学习 Button 的相关知识");
         myFrame.setLayout(null);
         myFrame.add(button);

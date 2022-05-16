@@ -36,7 +36,7 @@ public class S1_FrameTest
         myLabel.setVerticalAlignment(JLabel.CENTER);
         myLabel.setHorizontalAlignment(JLabel.CENTER);
 
-        S0_MyFrame myFrame = new S0_MyFrame();
+        S0_MyCenterFrame myFrame = new S0_MyCenterFrame(800, 600);
         // 向窗体中添加 Label
         myFrame.add(myLabel);
         myFrame.setResizable(true);

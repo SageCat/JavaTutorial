@@ -38,8 +38,7 @@ public class S2_PanelTest
         jPanelD.setBounds(0, 400, 800, 200);
 
 
-        S0_MyFrame myFrame = new S0_MyFrame();
-        myFrame.setBounds(300, 300, 800, 600);
+        S0_MyCenterFrame myFrame = new S0_MyCenterFrame(1000, 800);
         // JFrame 的默认 Layout 是 java.awt.BorderLayout
         System.out.println(myFrame.getLayout());
         myFrame.setLayout(null);

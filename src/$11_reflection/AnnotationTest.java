@@ -2,6 +2,7 @@ package $11_reflection;
 
 import java.lang.annotation.*;
 
+@SuppressWarnings("all")
 public class AnnotationTest
 {
     public static void main(String[] args)
