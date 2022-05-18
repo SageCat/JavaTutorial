@@ -7,9 +7,9 @@ public class S4_LayoutTest
 {
     public static void main(String[] args)
     {
-//        borderLayout();
+        borderLayout();
 //        flowLayout();
-        gridLayout();
+//        gridLayout();
     }
 
     private static void gridLayout()

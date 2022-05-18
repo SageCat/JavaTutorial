@@ -11,5 +11,14 @@ public class TicketTest
         thread1.start();
         thread2.start();
         thread3.start();
+
+
+        new Thread(() ->
+                   {
+                       for (int i = 0; i < 20; i++)
+                       {
+                           System.out.println(Thread.currentThread().getName() + ">>>>>>>>>> " + i);
+                       }
+                   }).start();
     }
 }
